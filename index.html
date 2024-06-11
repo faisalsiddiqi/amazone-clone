@@ -1,12 +1,147 @@
 <!DOCTYPE html>
 <head>
   <title> Amazon.fr</title>
-  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/general.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link href="https://fonts.cdnfonts.com/css/amazon-ember" rel="stylesheet">
 </head>
 
 <body>
-  <div>
-    hello amazon
-  </div>
+  <!-- main nav bar -->
+  <nav class="nav-bar">
+   <!-- lefts side of the nav bar -->
+    <div class="left-section">
+       <!-- amazon logo -->
+    <a  href="#">
+      <img class="amz-logo" src="resources/amazon-logo.png" >
+    </a>
+   <!-- area selection box -->
+    <a class="area-selector">
+      <div class="placeholder-logo-div">
+        <img class="placeholder-logo" src="resources/placeholder.png" alt="">
+      </div>
 
+      <div>
+        <p class="deliver-to-txt">Deliver to</p>
+        <p class="country-name-txt">Antigua and barbuda</p>
+      </div>
+    </a>
+     
+    </div>
+    
+    <!-- middle section of the nav bar -->
+     <div class="middle-section js-middle-section">
+      <!-- search category selector -->
+     <button class="category-selector-btn">
+      <p class="category-selected">All</p>
+      <p class="down-arrow">&#11206</p>
+     </button>
+      
+      <!-- search input -->
+      <input placeholder="Search Amazon" onclick=" searchBarGlow()
+      "class="search-input"  type="search">
+      <!-- search button -->
+       <button class="search-btn">
+        <img class="search-logo" src="resources/search.png" alt="">
+       </button>
+     </div>
+     
+     <!-- right side of the navbar -->
+      <div class="right-section">
+     
+      <!-- language selector -->
+       <button class="language-selector">
+        <div class="flag-icon-div">
+          <img class="flag-icon" src="resources/france.png" alt="">
+        </div>
+          <p class="language">
+            FR
+          </p>
+          <!-- small dropdown arrow -->
+           <p class="down-arrow">&#11206</p>
+       </button>
+      
+       <!-- accounts and stuff -->
+        <div class="accounts-and-lists">
+          <p class="name">
+            Hello, Faisal
+          </p>
+          <div class="account-list-arrow">
+            <p class="acc-list-txt">Account & Lists</p>
+            <!-- small dropdown arrow -->
+             <p class="down-arrow">&#11206</p>
+          </div>
+        </div>
+      
+        <!-- return orders -->
+         <div class="return-and-orders">
+          <p class="return-txt">
+            Return
+          </p>
+          <p class="orders-txt">
+            & Orders
+          </p>
+          
+         </div>
+         
+         <!-- cart box -->
+          <div class="cart">
+            <div class="cart-logo-div">
+              <img class="cart-logo" src="resources/cart.png" alt="">
+            </div>
+            <p class="cart-txt">
+              Cart
+            </p>
+          </div>
+      </div>
+  </nav>
+
+     <!-- small nav bar -->
+   <nav class="small-navbar">
+      <div class="all">
+        <img class="all-burger-menu" src="resources/burger-bar.png" alt="">
+        <p class="all-txt">All</p>
+      </div>
+     
+      <div class="today-deal">
+        <p class="today-deal-txt">
+          Today's Deals
+        </p>
+      </div>
+
+     <dir class="buy-again">
+       <p>
+         Buy Again
+       </p>
+     </dir>
+
+     <dir class="customer-service">
+       <p>
+         Customer Service
+       </p>
+     </dir>
+
+     <dir class="registry">
+       <p>
+         Registry
+       </p>
+     </dir>
+
+     <dir class="gift-cards">
+       <p>
+         Gift Cards
+       </p>
+     </dir>
+
+     <dir class="sell">
+       <p>
+         Sell
+       </p>
+     </dir>
+    
+    </nav>
+
+  
+
+<script src="scripts/header.js"></script>
 </body>
