@@ -1,8 +1,11 @@
 body{
-  margin: 0px;
+  margin: auto;
   color: white;
   font-family: 'Amazon Ember', sans-serif;
   background-color: #ffcc00;
+  overflow: auto;
+
+  position: relative;
 }
 
 p{

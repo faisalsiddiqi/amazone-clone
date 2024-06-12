@@ -20,6 +20,8 @@
   justify-content: space-around;
   align-items: center;
   column-gap:8px;
+
+  min-width: 300px;
 }
 
 .amz-logo{
@@ -158,6 +160,7 @@
   justify-content: space-around;
   align-items: center;
   margin-right: 10px;
+  flex-wrap:nowrap;
 }
 .language-selector{
   display: flex;
@@ -200,6 +203,7 @@
   align-items: center;
   column-gap:5px ;
   line-height: 10px;
+  
 }
 .name{
   color: #ffff;
@@ -210,6 +214,7 @@
 .acc-list-txt{
   font-size: 14px;
   font-weight: 600;
+  white-space: nowrap;
 
 }
 
@@ -230,6 +235,7 @@
   font-size: 15px;
   font-weight: 600;
   line-height: 12px;
+  white-space: nowrap;
 
 }
 .cart{
@@ -279,6 +285,7 @@
   display: flex;
   justify-content: left;
   align-items: center;
+  min-width: 600px;
 }
 
 .all{
